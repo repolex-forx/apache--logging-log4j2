@@ -42255,6 +42255,192 @@
         "blob/5ac0a240150904b02766c1261094654b031055c2.nq.gz",
         "blob/a0b3fc45ac83f1abd1696e8b538c88522e1bcbe9.nq.gz",
         "blob/ebc93c29a93bc8fb72e0b80bf35250dd5d2a45dd.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/38164ce047a4f15f8f0a3b39cbfbfea861cc1b9d.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/38164ce047a4f15f8f0a3b39cbfbfea861cc1b9d.nq.gz",
+      "repolex": "aggregate/repolex/38164ce047a4f15f8f0a3b39cbfbfea861cc1b9d.nq.gz",
+      "dep": "dep/38164ce047a4f15f8f0a3b39cbfbfea861cc1b9d.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "org.slf4j:slf4j-api",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.slf4j:slf4j-ext",
+          "ecosystem": "MAVEN",
+          "version": "2.1.0-alpha1",
+          "githubOrg": "qos-ch",
+          "githubRepo": "slf4j",
+          "githubCommit": "d0fe6310eb4f1e9cb306b6934a3e7aee0feef46b",
+          "githubTag": "v_2.1.0-alpha1",
+          "githubUrl": "https://github.com/qos-ch/slf4j",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "ch.qos.logback:logback-core",
+          "ecosystem": "MAVEN",
+          "version": "1.5.32",
+          "githubOrg": "qos-ch",
+          "githubRepo": "logback",
+          "githubCommit": "e807335a67535b4eacce94e942c0bcb649665d93",
+          "githubTag": "v_1.5.32",
+          "githubUrl": "https://github.com/qos-ch/logback",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "ch.qos.logback:logback-classic",
+          "ecosystem": "MAVEN",
+          "version": "1.5.32",
+          "githubOrg": "qos-ch",
+          "githubRepo": "logback",
+          "githubCommit": "e807335a67535b4eacce94e942c0bcb649665d93",
+          "githubTag": "v_1.5.32",
+          "githubUrl": "https://github.com/qos-ch/logback",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.apache.logging.log4j:log4j-api",
+          "ecosystem": "MAVEN",
+          "version": "3.0.0-beta2",
+          "githubOrg": "apache",
+          "githubRepo": "logging-log4j2",
+          "githubCommit": "086db24a04f905b40649666aafe3bb4778a75291",
+          "githubTag": "rel/3.0.0-beta2",
+          "githubUrl": "https://github.com/apache/logging-log4j2",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.apache.logging.log4j:log4j-core",
+          "ecosystem": "MAVEN",
+          "version": "3.0.0-beta3",
+          "githubOrg": "apache",
+          "githubRepo": "logging-log4j2",
+          "githubCommit": "28117e55f69892d3454672f9399e53fb7b74a321",
+          "githubTag": "rel/3.0.0-beta3",
+          "githubUrl": "https://github.com/apache/logging-log4j2",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "4.3.1",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.base:java.nio.charset",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.lang",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.concurrent",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.util.regex",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.net",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.nio",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.management:java.lang.management",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.lang.reflect",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "org.apache.avro:avro-ipc",
+          "ecosystem": "MAVEN",
+          "version": "1.6.3",
+          "githubOrg": "apache",
+          "githubRepo": "avro",
+          "githubCommit": "b72784d7a5f8f932edaacbee75ce05ff5d3544ef",
+          "githubTag": "release-1.6.3",
+          "githubUrl": "scm:git:https://github.com/apache/avro",
+          "source": "lsp",
+          "install_path": "/avro-ipc-1.6.3.jar/org.apache.avro.ipc.specific/SpecificRequestor.class"
+        },
+        {
+          "packageName": "java.xml:javax.xml.parsers",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.xml:javax.xml.validation",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.text",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        },
+        {
+          "packageName": "java.base:java.security",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     }
   ],
