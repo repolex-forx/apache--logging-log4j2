@@ -23,13 +23,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 3156
+      "repolex:graphFileSize": 3165
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
-      "repolex:graphFileSize": 39627
+      "repolex:graphFileSize": 39582
     },
     {
       "@type": "repolex:GraphFile",
@@ -45,7 +45,7 @@
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-03-31T00:02:50.572219+00:00",
+  "repolex:parsedAt": "2026-03-31T00:04:56.386717+00:00",
   "repolex:parserVersion": "0.1.0",
   "git:tagName": "log4j-2.0-beta9"
 }
